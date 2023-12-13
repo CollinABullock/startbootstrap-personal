@@ -3679,6 +3679,10 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+.nav-item {
+  font-size: 2em;
+}
+
 .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
   --bs-nav-pills-link-active-color: #fff;
