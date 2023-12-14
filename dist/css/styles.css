@@ -5424,6 +5424,7 @@ textarea.form-control-lg {
 .modal-fullscreen .modal-footer {
   border-radius: 0;
 }
+
 .modal-fullscreen .modal-body {
   overflow-y: auto;
 }
@@ -8245,6 +8246,10 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+}
+
+.skills {
+  text-align: justify;
 }
 
 .text-black-50 {
