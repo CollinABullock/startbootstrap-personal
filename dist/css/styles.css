@@ -3679,6 +3679,10 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+.nav-item {
+  font-size: 2em;
+}
+
 .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
   --bs-nav-pills-link-active-color: #fff;
@@ -5400,6 +5404,17 @@ textarea.form-control-lg {
     --bs-modal-width: 800px;
   }
 }
+
+.nav-item:hover {
+  font-size: 3em;
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+.nav-item {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @media (min-width: 1200px) {
   .modal-xl {
     --bs-modal-width: 1140px;
@@ -5420,6 +5435,7 @@ textarea.form-control-lg {
 .modal-fullscreen .modal-footer {
   border-radius: 0;
 }
+
 .modal-fullscreen .modal-body {
   overflow-y: auto;
 }
@@ -8186,7 +8202,6 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
-  padding: 20px;
 }
 
 .text-secondary {
@@ -8242,6 +8257,10 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+}
+
+.skills {
+  text-align: justify;
 }
 
 .text-black-50 {
